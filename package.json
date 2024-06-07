@@ -1,0 +1,26 @@
+{
+  "name": "bark-bot-sample",
+  "version": "1.0.0",
+  "description": "To install and develop a Solana SPL token bot like BARK, you'll need to follow several steps, including setting up your development environment, creating a Solana wallet, interacting with the Solana blockchain, and deploying your bot. Below is a comprehensive guide to get you started:",
+  "main": "index.js",
+  "scripts": {
+    "run-bot": "node index.js",
+    "start:bot": "ts-node discordBot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "BARK Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.3",
+    "@types/node": "^20.14.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

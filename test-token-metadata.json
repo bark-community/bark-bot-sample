@@ -1,0 +1,14 @@
+{
+    "name": "Test Token",
+    "symbol": "TTK",
+    "uri": "https://github.com/bark-community/bark-bot-sample/test-token-metadata.json",
+    "seller_fee_basis_points": 500,
+    "creators": [
+      {
+        "address": "YOUR_WALLET_ADDRESS",
+        "verified": true,
+        "share": 100
+      }
+    ]
+  }
+  
